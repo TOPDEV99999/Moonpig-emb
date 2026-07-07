@@ -1,0 +1,21 @@
+@import 'bootstrap/scss/bootstrap';
+@import './common/home';
+@import './common/cardListings';
+@import './common/cardDetails';
+
+$pink: #ef879e;
+
+body {
+  background-color: $pink;
+}
+
+.spinner{
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+a.nav-links:focus {
+  outline: 0;
+  border-bottom: 2px solid pink;
+}

@@ -1,0 +1,40 @@
+.nav{
+  background-color: white;
+  height: 10em;
+
+  img{
+    width: 100px;
+  }
+}
+
+.card{
+  width: 282px;
+  display: table-caption;
+}
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+.slick-track{
+  height: 250px;
+}
+
+.btn-dark {
+  color: none; 
+  background-color: #ef879e;
+  border-color: #212529;
+}
+
+.h2-pink{
+  color: #ef879e;
+  text-decoration: none;
+  &:hover{
+    color:#212529;
+  }
+}
+
